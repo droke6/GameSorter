@@ -140,14 +140,14 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://volleysheets-frontend-bucket.s3-website.us-east-2.amazonaws.com",
+    "http://g-sorter.s3-website.us-east-2.amazonaws.com",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://volleysheets-frontend-bucket.s3-website.us-east-2.amazonaws.com",
-    "https://volleysheets-frontend-bucket.s3-website.us-east-2.amazonaws.com",
+    "http://volleysheets.s3-website.us-east-2.amazonaws.com",
+    "https://volleysheets.s3-website.us-east-2.amazonaws.com",
 ]
 
 CSRF_COOKIE_HTTPONLY = False  # Make sure CSRF cookie is accessible by JavaScript
