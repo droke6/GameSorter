@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-i+otv#+y^b8@y&6*^+&vo+@f@+)zybse&z+vp9@^leh3zb@e9%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['api.gamesorter.org', '127.0.0.1', 'localhost','3.147.46.178','http://volleysheets-frontend-bucket.s3-website.us-east-2.amazonaws.com']
+ALLOWED_HOSTS = ['psa.gamesorter.org', '127.0.0.1', 'localhost','18.191.127.231','http://g-sorter.s3-website.us-east-2.amazonaws.com']
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (

@@ -25,7 +25,7 @@ const Basketball = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('/api/basketball/', formData, {
+            const response = await axios.post('https://psa.gamesorter.org/api/basketball/', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },

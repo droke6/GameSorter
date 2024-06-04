@@ -30,7 +30,7 @@ const NetHeights = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('https://api.gamesorter.org/api/net_height/generate_net_height_file/', formData, {
+            const response = await axios.post('https://psa.gamesorter.org/api/net_height/generate_net_height_file/', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },

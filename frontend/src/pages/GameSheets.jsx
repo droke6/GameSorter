@@ -24,7 +24,7 @@ const GameSheets = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('https://api.gamesorter.org/api/game_sheets/', formData, {  // Note the trailing slash
+            const response = await axios.post('https://psa.gamesorter.org/api/game_sheets/', formData, {  // Note the trailing slash
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },
