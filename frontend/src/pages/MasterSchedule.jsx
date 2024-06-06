@@ -26,7 +26,7 @@ const MasterSchedule = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://psa.gamesorter.org/api/master_schedule/', formData, {
+      const response = await axios.post('https://psa.gamedaysetup.org/api/master_schedule/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-i+otv#+y^b8@y&6*^+&vo+@f@+)zybse&z+vp9@^leh3zb@e9%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['psa.gamesorter.org', '127.0.0.1', 'localhost','18.191.127.231','http://g-sorter.s3-website.us-east-2.amazonaws.com']
+ALLOWED_HOSTS = ['psa.gamedaysetup.org', '127.0.0.1', 'localhost','18.191.127.231','http://gamesorter.org.s3-website.us-east-2.amazonaws.com']
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
@@ -140,15 +140,10 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://g-sorter.s3-website.us-east-2.amazonaws.com",
+    "http://gamesorter.org.s3-website.us-east-2.amazonaws.com",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
-
-CORS_ALLOWED_ORIGINS = [
-    "http://volleysheets.s3-website.us-east-2.amazonaws.com",
-    "https://volleysheets.s3-website.us-east-2.amazonaws.com",
-]
 
 CSRF_COOKIE_HTTPONLY = False  # Make sure CSRF cookie is accessible by JavaScript
 CSRF_USE_SESSIONS = True      # Store the CSRF token in the user's session
