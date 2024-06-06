@@ -151,6 +151,11 @@ CORS_ALLOWED_ORIGINS = [
     'https://gamesorter.org.s3-website.us-east-2.amazonaws.com'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'http://gamesorter.org.s3-website.us-east-2.amazonaws.com',
+    'https://gamesorter.org.s3-website.us-east-2.amazonaws.com'
+]
+
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_COOKIE_HTTPONLY = False  # Make sure CSRF cookie is accessible by JavaScript
