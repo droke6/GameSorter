@@ -128,10 +128,10 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-MEDIA_URL = '/media/';
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_URL = '/media/';
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # STATICFILES_DIRS = [
 #     BASE_DIR / 'static'
@@ -148,6 +148,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://gamesorter.org.s3-website.us-east-2.amazonaws.com",
+    'https://gamesorter.org.s3-website.us-east-2.amazonaws.com'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
